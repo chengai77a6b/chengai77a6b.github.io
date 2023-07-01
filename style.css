@@ -5,7 +5,6 @@ button {
    font-size: 20px; /* 设置字体大小 */
    padding: 10px 20px; /* 设置内边距 */
 }
-}
  body {
   background-color: #e6e6fa;
   background-image: linear-gradient(to bottom, #e6e6fa, #d8bfd8);
