@@ -1,5 +1,5 @@
 button {
-  border: 1px solid red; /* 设置按钮边框为红色 */
+  border: 1px solid black; /* 设置按钮边框为红色 */
   color: blue; /* 设置按钮文字颜色为蓝色 */
   background-color: transparent; /* 设置按钮文字背景为透明 */
 }
