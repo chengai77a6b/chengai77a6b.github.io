@@ -3,3 +3,8 @@ button {
   color: blue; /* 设置按钮文字颜色为蓝色 */
   background-color: transparent; /* 设置按钮文字背景为透明 */
 }
+ body {
+  background-color: #e6e6fa;
+  background-image: linear-gradient(to bottom, #e6e6fa, #d8bfd8);
+  background-attachment: fixed;
+ }
