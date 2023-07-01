@@ -10,8 +10,6 @@ button {
   background-image: linear-gradient(to bottom, #e6e6fa, #d8bfd8);
   background-attachment: fixed;
  }
- .fade-out {
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
+ 
+
 
