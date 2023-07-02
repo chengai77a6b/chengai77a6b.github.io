@@ -11,3 +11,38 @@ button {
   background-attachment: fixed;
  }
  
+ .message-board {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+}
+
+.message-board h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.message-board p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.message-board input[type="text"],
+.message-board input[type="email"],
+.message-board textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.message-board input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
