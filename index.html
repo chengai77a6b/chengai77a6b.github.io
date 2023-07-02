@@ -34,24 +34,20 @@ play.simpfun.vip:44861<br>
 			基岩版1.19+<br>IP：play.simpfun.vip<br>
 			端口：44861</p></center>
  
-  <h1>留言板</h1>
+  <div class="container">
+    <h1>留言反馈</h1>
+    <form action="mailto:chengaihhz@yeah.net" method="post" enctype="text/plain">
+      <label for="name">姓名:</label>
+      <input type="text" id="name" name="name">
 
-    <form id="messageForm" onsubmit="addMessage(event)">
-        <label for="name">姓名：</label>
-        <input type="text" id="name" required>
+      <label for="email">邮箱:</label>
+      <input type="email" id="email" name="email">
 
-        <label for="message">留言内容：</label>
-        <textarea id="message" required></textarea>
+      <label for="message">留言:</label>
+      <textarea id="message" name="message"></textarea>
 
-        <input type="submit" value="提交">
+      <input type="submit" value="提交">
     </form>
-
-    <div id="messageList">
-        <!-- 留言将会显示在这里 -->
-    </div>
-
-    <a href="mailto:"chengaihhz@yeah.net">联系我们</a>
-
-    <script src="script.js"></script>
+  </div>
 </body>
 </html>
