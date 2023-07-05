@@ -67,7 +67,7 @@
   
                                                                  <!--背景音乐--> 
                                                                  <div> 
-                                                                         <audio id="music" src="./assets/music/bgm.mp3" loop autoplay></audio> 
+                                                                         <audio id="music" src="./assets/music/bgm.mp3" loop controls></audio> 
                                                                          <i class="fa fa-play"  onClick="play()" aria-hidden="true"></i> 
                                                                          <p></p> 
                                                                  </div> 
@@ -222,7 +222,7 @@ LineXic
      if (body.getElementsByTagName("audio").length <= 0) { 
        var audio = document.createElement("audio"); 
        audio.setAttribute("id", "awardAudio"); 
-       audio.setAttribute("autoplay", "autoplay"); 
+       audio.setAttribute("controls", "controls"); 
        audio.setAttribute("src", src); 
        body.appendChild(audio); 
   
