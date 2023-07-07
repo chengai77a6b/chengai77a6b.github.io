@@ -38,3 +38,6 @@
    #closeButton { 
    border-radius: 10px;   /* 圆角半径 */
 }
+ .close {
+  color: black;
+}
