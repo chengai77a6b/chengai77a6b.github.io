@@ -38,12 +38,5 @@
    #closeButton { 
    border-radius: 10px;   /* 圆角半径 */
 }
- .image-container {
-  max-width: 100%; /* 设置父容器的最大宽度为100%，以使图片自适应屏幕 */
-}
-
-.image-container img {
-  width: 100%; /* 设置图片的宽度为100%，以填充父容器的宽度 */
-  height: auto; /* 根据宽度自动调整高度，保持图片比例不变 */
-}
+ 
  
